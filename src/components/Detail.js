@@ -32,6 +32,7 @@ const Detail = ({ exerciseDetail }) => {
         alignItems: 'center',
       }}
     >
+      <noscript data-testid="details">{exerciseDetail}</noscript>
       <img src={gifUrl} alt={name} loading='lazy' className='detail-image' />
       <Stack sx={{ gap: { lg: '35px', xs: '20px' } }}>
         <Typography

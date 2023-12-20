@@ -12,6 +12,7 @@ const HeroBanner = () => {
       }}
       position='relative'
       p='20px'
+      data-testid="hero-1"
     >
       <Typography color='#ff2625' fontWeight={600} fontSize='26px'>
         FITNESS CLUB
